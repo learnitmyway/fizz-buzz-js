@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "lint": "npx eslint --config .eslintrc.json 'src/**/*.js' --max-warnings 0",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch",
+    "test:ci": "jest",
+    "precommit": "npm run lint && npm run test:ci"
   },
   "devDependencies": {
     "@babel/core": "^7.10.1",
