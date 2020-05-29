@@ -2,6 +2,7 @@
   "name": "fizz-buzz-js",
   "private": true,
   "scripts": {
+    "lint": "npx eslint --config .eslintrc.json 'src/**/*.js' --max-warnings 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
