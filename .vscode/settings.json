@@ -1,4 +1,5 @@
 {
+  "prettier.printWidth": 60,
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#3449a5",
     "activityBar.activeBorder": "#300f15",
