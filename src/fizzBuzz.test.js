@@ -1,5 +1,7 @@
+import fizzBuzz from './fizzBuzz'
+
 describe('fizzBuzz', () => {
-  it('temp', () => {
-    expect(true).toBe(false)
+  it('executes', () => {
+    expect(fizzBuzz()).toBe(undefined)
   })
 })
